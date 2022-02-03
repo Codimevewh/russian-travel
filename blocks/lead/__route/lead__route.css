@@ -1,0 +1,11 @@
+.lead__route {
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 45%;
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
+}

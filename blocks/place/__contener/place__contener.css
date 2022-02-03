@@ -1,0 +1,22 @@
+.place__contener {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 48px;
+    width: 100%;
+}
+
+.place__contener:nth-child(2n) {
+    padding-bottom: 0;
+}
+
+@media (max-width: 750px) {
+    .place__contener {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 320px) {
+    .place__contener {
+        padding-bottom: 32px;
+    }
+}

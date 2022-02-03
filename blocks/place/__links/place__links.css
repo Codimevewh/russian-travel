@@ -1,0 +1,19 @@
+.place__links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-left: 8px;
+}
+
+@media (max-width: 768px) {
+    .place__links {
+        margin-left: 44px;
+    }
+}
+
+@media (max-width: 750px) {
+    .place__links {
+        margin: 32px auto 0 16px;
+    }
+}
