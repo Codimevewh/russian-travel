@@ -8,6 +8,10 @@ margin: 0;
 padding: 0;
 }
 
+.header__lang-links li:last-child {
+    margin-left: 18px;
+}
+
 @media (max-width: 320px) {
     .header__lang-links {
         font-size: 18px;
